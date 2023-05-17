@@ -2,26 +2,31 @@
   {
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
-    "pages": 324
+    "pages": 324,
+    "imageSrc": "./assets/images/51N5qVjuKAL._SX309_BO1,204,203,200_.jpg"
   },
   {
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
-    "pages": 279
+    "pages": 279,
+    "imageSrc": "./assets/images/61BahDaTZXL._SY344_BO1,204,203,200_.jpg"
   },
   {
     "title": "1984",
     "author": "George Orwell",
-    "pages": 328
+    "pages": 328,
+    "imageSrc": "./assets/images/519zR2oIlmL._SX305_BO1,204,203,200_.jpg"
   },
   {
     "title": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
-    "pages": 180
+    "pages": 180,
+    "imageSrc": "./assets/images/41VNDqixQCL._SX320_BO1,204,203,200_.jpg"
   },
   {
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
-    "pages": 277
+    "pages": 277,
+    "imageSrc": "./assets/images/51pCbqT62lL._SY344_BO1,204,203,200_.jpg"
   }
 ]

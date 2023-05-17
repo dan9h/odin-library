@@ -20,28 +20,8 @@
     "pages": 180
   },
   {
-    "title": "The Lord of the Rings",
-    "author": "J.R.R. Tolkien",
-    "pages": 1200
-  },
-  {
-    "title": "Moby-Dick",
-    "author": "Herman Melville",
-    "pages": 720
-  },
-  {
-    "title": "The Chronicles of Narnia",
-    "author": "C.S. Lewis",
-    "pages": 767
-  },
-  {
-    "title": "The Hitchhiker's Guide to the Galaxy",
-    "author": "Douglas Adams",
-    "pages": 224
-  },
-  {
-    "title": "Harry Potter and the Sorcerer's Stone",
-    "author": "J.K. Rowling",
-    "pages": 320
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "pages": 277
   }
 ]

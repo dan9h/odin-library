@@ -60,7 +60,7 @@ function addBookToLibrary(bookInstance) {
   bookPages.innerText = pages + ' pages';
 
   LIBRARY.push(bookInstance);
-  booksContainer.appendChild(clone);
+  booksContainer.prepend(clone);
 }
 
 /**
@@ -120,6 +120,4 @@ addBookDialog.oncancel = (event) => event.preventDefault(); // escape
 addBookForm.onsubmit = (event) => event.preventDefault();
 addBookDialog.onclose = () => addBookForm.reset();
 addBookButton.onclick = () => addBookDialog.showModal();
-cancelButton.onclick = (event) => {
-  addBookDialog.close();
-};
+cancelButton.onclick = () => addBookDialog.close();

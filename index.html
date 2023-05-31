@@ -2,12 +2,81 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Odin Project: Library</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="./assets/js/lib.js" defer></script>
   </head>
   <body>
-    <h1>The Odin Project: Library</h1>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <h1 class="brand">Odin Library</h1>
+          <button id="add-book-button">New Book</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div id="books-container"></div>
+      </div>
+    </main>
+
+    <dialog id="add-book-dialog">
+      <h2 class="form__header">Add Book</h2>
+      <form id="add-book-form">
+        <div class="form__field">
+          <label for="book-title">Title <span class="required">*</span></label>
+          <input class="form__input" type="text" id="book-title" required />
+        </div>
+        <div class="form__field">
+          <label for="book-author"
+            >Author <span class="required">*</span></label
+          >
+          <input class="form__input" type="text" id="book-author" required />
+        </div>
+        <div class="form__field">
+          <label for="book-pages">Pages <span class="required">*</span></label>
+          <input
+            class="form__input"
+            type="number"
+            id="book-pages"
+            required
+            min="1"
+          />
+        </div>
+        <div class="form__field">
+          <label for="book-read">Read</label>
+          <input type="checkbox" id="book-read" />
+        </div>
+        <div class="form__field">
+          <button
+            id="submit-button"
+            class="form__button form__button--add"
+            type="submit"
+          >
+            Add
+          </button>
+          <button
+            id="cancel-button"
+            class="form__button form__button--cancel"
+            type="button"
+          >
+            Cancel
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <template id="book-template">
+      <div class="book">
+        <button class="book__delete" title="Delete" type="button">X</button>
+        <h2 class="book__title">The Catcher in the Rye</h2>
+        <span>by</span>
+        <h3 class="book__author">J. D. Salinger</h3>
+        <span class="book__pages">290 pages</span>
+      </div>
+    </template>
   </body>
 </html>

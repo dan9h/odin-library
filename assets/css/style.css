@@ -65,6 +65,11 @@ body:has(dialog[open]) {
   margin-bottom: 0.5em;
 }
 
+.form__header {
+  font-size: 2em;
+  font-weight: 400;
+}
+
 .form__field:has(input[type='checkbox']) label {
   display: inline-block;
   margin-right: 1em;

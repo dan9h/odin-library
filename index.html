@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Odin Project: Library</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/skeleton.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+
+    <!-- JS -->
     <script src="./assets/js/lib.js" defer></script>
   </head>
   <body>
@@ -12,7 +21,7 @@
       <div class="container">
         <div class="header-content">
           <h1 class="brand">Odin Library</h1>
-          <button id="add-book-button">New Book</button>
+          <button id="add-book-button" class="button-primary">New Book</button>
         </div>
       </div>
     </header>
@@ -53,7 +62,7 @@
         <div class="form__field">
           <button
             id="submit-button"
-            class="form__button form__button--add"
+            class="button-primary form__button"
             type="submit"
           >
             Add
